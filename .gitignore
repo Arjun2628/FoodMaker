@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Optional npm cache directory
+.npm
+
+# Optional yarn cache directory
+.yarn
+
+# Build output
+build/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# .DS_Store files
+.DS_Store
