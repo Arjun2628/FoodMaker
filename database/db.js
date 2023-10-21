@@ -1,7 +1,7 @@
 import mongoose  from "mongoose";
 
 const obj={}
-mongoose.connect("mongodb://127.0.0.1:27017/FoodMaker").then((res)=>{
+mongoose.connect("mongodb+srv://arjun2628official:arjun123@cluster0.bkqwwbi.mongodb.net/").then((res)=>{
     console.log("db connected");
     obj.db=res;
 }).catch((err)=>{
@@ -9,3 +9,4 @@ mongoose.connect("mongodb://127.0.0.1:27017/FoodMaker").then((res)=>{
 })
 
 export default obj;
+   

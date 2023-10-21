@@ -49,9 +49,14 @@ const addReceipe = async (req, res) => {
   }
 };
 
+const update=async(req,res)=>{
+  
+}
+
 
 
 export default {
   getAllFoodItems,
   addReceipe,
+  update
 };
