@@ -8,7 +8,7 @@
   ],
   "routes": [
     {
-      "src": "/food",
+      "src": "/(.*)",
       "dest": "app.js"
     }
    
