@@ -7,6 +7,6 @@ const router=express.Router()
 router.use(bodyParser.json())
 
 router.get("/",foodController.getAllFoodItems)
-router.post("/addfood",foodController.addReceipe)
+router.post("/addfood",foodController.addReceipe) //sdfsdf
 
-export default router
+export default router    
