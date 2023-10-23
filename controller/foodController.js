@@ -50,6 +50,16 @@ const addReceipe = async (req, res) => {
 };
 
 const update=async(req,res)=>{
+
+  try{
+    const {id,...rest}=req.body
+    const result=await FoodDetails.findByIdAndUpdate({_id:id},{$set:rest})
+
+    const allData=await FoodDetails.find({})
+    res.json(allData)
+  }catch(err){
+    console.log(err);
+  }
   
 }
 
